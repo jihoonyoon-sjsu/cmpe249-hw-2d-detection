@@ -1,0 +1,15 @@
+== yolo11m
+  recall by height: {'0-16px': 6.7, '16-32px': 19.5, '32-64px': 34.1, '64-128px': 59.9, '128-256px': 79.0, '256-10000px': 87.8}
+  confusion (gt->pred): [['truck', 'car', 675], ['car', 'truck', 661], ['truck', 'bus', 161], ['motorcycle', 'person', 132], ['car', 'bus', 116], ['bicycle', 'person', 75]]
+  unmatched dets: [['car', 'poor localization (0.1<=IoU<0.5)', 2846], ['person', 'poor localization (0.1<=IoU<0.5)', 1676], ['truck', 'vehicle.car', 1252], ['car', 'no labeled object (IoU<0.1)', 837], ['car', 'vehicle.truck', 788], ['bicycle', 'poor localization (0.1<=IoU<0.5)', 478], ['person', 'no labeled object (IoU<0.1)', 411], ['person', 'vehicle.motorcycle', 308], ['bus', 'vehicle.truck', 269], ['bicycle', 'no labeled object (IoU<0.1)', 257]]
+  riders: 659/1394  confident empty hits: 210
+== rtdetr-l
+  recall by height: {'0-16px': 38.8, '16-32px': 40.1, '32-64px': 52.0, '64-128px': 70.4, '128-256px': 82.9, '256-10000px': 91.4}
+  confusion (gt->pred): [['truck', 'car', 873], ['motorcycle', 'person', 334], ['car', 'truck', 265], ['bicycle', 'person', 126], ['bus', 'car', 122], ['motorcycle', 'car', 120]]
+  unmatched dets: [['car', 'poor localization (0.1<=IoU<0.5)', 10548], ['car', 'no labeled object (IoU<0.1)', 6398], ['person', 'poor localization (0.1<=IoU<0.5)', 5829], ['truck', 'vehicle.car', 4732], ['person', 'no labeled object (IoU<0.1)', 3314], ['car', 'vehicle.truck', 2035], ['bicycle', 'poor localization (0.1<=IoU<0.5)', 1432], ['truck', 'poor localization (0.1<=IoU<0.5)', 1162], ['bicycle', 'no labeled object (IoU<0.1)', 862], ['person', 'vehicle.motorcycle', 695]]
+  riders: 963/1394  confident empty hits: 427
+== fasterrcnn_r50_fpn_v2
+  recall by height: {'0-16px': 57.7, '16-32px': 55.2, '32-64px': 65.2, '64-128px': 75.6, '128-256px': 84.9, '256-10000px': 91.7}
+  confusion (gt->pred): [['truck', 'car', 851], ['car', 'truck', 340], ['motorcycle', 'person', 261], ['bicycle', 'person', 119], ['bus', 'car', 107], ['motorcycle', 'car', 107]]
+  unmatched dets: [['car', 'poor localization (0.1<=IoU<0.5)', 15984], ['car', 'no labeled object (IoU<0.1)', 10490], ['person', 'poor localization (0.1<=IoU<0.5)', 9351], ['person', 'no labeled object (IoU<0.1)', 8068], ['truck', 'vehicle.car', 2886], ['bicycle', 'poor localization (0.1<=IoU<0.5)', 2417], ['car', 'vehicle.truck', 1932], ['truck', 'poor localization (0.1<=IoU<0.5)', 1354], ['bicycle', 'no labeled object (IoU<0.1)', 1313], ['motorcycle', 'poor localization (0.1<=IoU<0.5)', 885]]
+  riders: 1138/1394  confident empty hits: 4704

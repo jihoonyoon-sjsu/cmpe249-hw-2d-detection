@@ -1,0 +1,21 @@
+{
+  "model": "fasterrcnn_r50_fpn_v2",
+  "gt": "/home/jihoon/work/hw2d/data/nuimages_val_coco6.json",
+  "num_images": 16445,
+  "imgsz": "min800/max1333",
+  "conf": 0.001,
+  "nms_iou": 0.5,
+  "max_det": 300,
+  "precision": "fp32",
+  "batch": 1,
+  "latency_ms_mean": 63.069370695839396,
+  "latency_ms_median": 62.947913000243716,
+  "latency_ms_p90": 65.36653660150478,
+  "fps_mean": 15.855556967939886,
+  "peak_gpu_mem_mb": 669.5439453125,
+  "peak_gpu_reserved_mb": 784.0,
+  "wall_time_s": 1097.0195784568787,
+  "gpu": "NVIDIA GeForce RTX 4070 Ti",
+  "torch": "2.5.1+cu124",
+  "python": "3.11.18"
+}

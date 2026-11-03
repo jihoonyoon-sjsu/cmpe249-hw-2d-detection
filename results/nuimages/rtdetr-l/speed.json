@@ -1,0 +1,21 @@
+{
+  "model": "rtdetr-l",
+  "gt": "/home/jihoon/work/hw2d/data/nuimages_val_coco6.json",
+  "num_images": 16445,
+  "imgsz": 640,
+  "conf": 0.001,
+  "nms_iou": "n/a (NMS-free)",
+  "max_det": 300,
+  "precision": "fp32",
+  "batch": 1,
+  "latency_ms_mean": 589.6320497831559,
+  "latency_ms_median": 20.712397003080696,
+  "latency_ms_p90": 23.12483940186212,
+  "fps_mean": 1.6959729383227415,
+  "peak_gpu_mem_mb": 234.125,
+  "peak_gpu_reserved_mb": 306.0,
+  "wall_time_s": 9483.491291999817,
+  "gpu": "NVIDIA GeForce RTX 4070 Ti",
+  "torch": "2.5.1+cu124",
+  "python": "3.11.18"
+}

@@ -1,0 +1,25 @@
+images=16445 annotations=97013
+  human.pedestrian.adult                   -> person     eval   28721
+  human.pedestrian.child                   -> person     eval   251
+  human.pedestrian.construction_worker     -> person     eval   3117
+  human.pedestrian.personal_mobility       -> person     ignore 453
+  human.pedestrian.police_officer          -> person     eval   96
+  human.pedestrian.stroller                -> person     ignore 70
+  human.pedestrian.wheelchair              -> person     ignore 2
+  vehicle.bicycle                          -> bicycle    eval   3352
+  vehicle.bus.bendy                        -> bus        eval   62
+  vehicle.bus.rigid                        -> bus        eval   1823
+  vehicle.car                              -> car        eval   47279
+  vehicle.construction                     -> truck      eval   1303
+  vehicle.emergency.ambulance              -> truck      eval   8
+  vehicle.emergency.police                 -> car        eval   35
+  vehicle.motorcycle                       -> motorcycle eval   3097
+  vehicle.trailer                          -> truck      ignore 486
+  vehicle.truck                            -> truck      eval   6858
+  animal                                   -> (not evaluated)   82
+  movable_object.barrier                   -> (not evaluated)   18433
+  movable_object.debris                    -> (not evaluated)   710
+  movable_object.pushable_pullable         -> (not evaluated)   645
+  movable_object.trafficcone               -> (not evaluated)   18587
+  static_object.bicycle_rack               -> (not evaluated)   603
+  vehicle.ego                              -> (not evaluated)   1
